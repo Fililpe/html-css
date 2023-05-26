@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>inserindo video hospedado localmento</h1>
+    <!--
+        A o abrir a pagina o navegador irá ler a primeira linha do codigo, entao ele lerá primeiro o mp4 depois o m4v e assim por diante....
+    -->
+    <video preload="metadata" poster="imagens/limoes-capa.png" controls width="500" loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm" type="video.webm">
+        <source src="midia/meu-video.ogv" type="video.ogv">
+        <p>seu navegador nao tem compatibilidade com reprodução de video <a href="midia/meu-video.mp4">clique aqui para baixar o video</a></p>
+    </video>
+    <p>seu navegador nao tem compatibilidade com reprodução de video <a href="midia/meu-video.mp4">clique aqui para baixar o video</a></p>
+    <!--
+        essa tecnica demanda muita banda da hospedagem, com 1000 acessos so o video mp4 com 11,5kb pode gerar 11GB de banda
+    -->
+
+    <h2>inserindo video de em nuvem (sem consumindo dados do servidor)</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dLqlQnwv3Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!--
+        subir video no site VIMEO é melhor que o yt
+    -->
+    
+
+</body>
+</html>
