@@ -2,4 +2,4 @@
  
  curso hrml css
  
-<a href="https://fililpe.github.io\html-css"> Exercutar o Desafio 10</a>
+<a href="https://fililpe.github.io\html-css"> Lista de Desafios</a>
