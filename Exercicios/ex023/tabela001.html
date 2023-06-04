@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            height: 320px;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid rgba(0, 0, 0, 0);
+            padding: 8px;
+            text-align: center; /*ALINHAMENTO HORIZONTAL*/
+            vertical-align: top; /*ALINHAMENTO VERTICAL*/
+        }
+        .direita{
+            text-align: right;
+        }
+        .esquerda{
+            text-align: left;
+        }
+        .meio{
+            vertical-align: middle;
+        }
+        .cima{
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha priemira tabela</h1>
+    <!--
+        Hierrarquia de tabelas(simples)
+        TABLE= tabela
+        TABLE ROW = linha de tabela
+        TABLE HEADER = linha de cabeçalho
+        TABLE DATA = dado da tabela
+    -->
+    <table>
+        <tr> <!--primeira linha-->
+            <td class="meio">A1</td>
+            <td>B1</td>
+            <td class="meio">C1</td>
+        </tr>
+        <tr>
+            <td class="esquerda">A2</td>
+            <td></td>
+            <td class="direita">C2</td>
+        </tr>
+        <tr>
+            <td class="esquerda">A3</td>
+            <td></td>
+            <td class="direita">C3</td>
+        </tr>
+        <tr>
+            <td class="cima">A4</td>
+            <td class="meio
+            ">B4</td>
+            <td class="cima">C4</td>
+        </tr>
+        </table>
+</body>
+</html>
