@@ -1,6 +1,43 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 5px;
+    padding: 5px;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: "Este artigo foi impresso atrcés do site www.site.com.br";
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+header h1{
+    padding: 20px;
+}
+header menu{
+    background-color: rgb(164, 201, 233);
+}
+menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+article{
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+article h1{
+    text-align: center;
+    margin: 10px;
 }
